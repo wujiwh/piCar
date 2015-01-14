@@ -7,7 +7,7 @@ Blog: http://wangheng.org
 ===============================
 User Guide:
 
-excute :
+
 > sudo python server.py 
 
 
