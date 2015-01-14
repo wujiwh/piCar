@@ -1,0 +1,46 @@
+/*=============================================================================
+#     FileName: style.css
+#         Desc:  
+#       Author: wangheng
+#        Email: wujiwh@gmail.com
+#     HomePage: http://wangheng.org
+#      Version: 0.0.1
+#   LastChange: 2015-01-14 20:40:04
+#      History:
+=============================================================================*/
+body            { font-family: sans-serif; background: #eee; }
+a, h1, h2       { color: #377ba8; }
+h1, h2          { font-family: 'Georgia', serif; margin: 0; }
+h1              { border-bottom: 2px solid #eee; }
+h2              { font-size: 1.2em; }
+
+.page           { margin: 2em auto; width: 60em; border: 5px solid #ccc;
+padding: 0.8em; background: white; }
+.entries        { list-style: none; margin: 0; padding: 0; }
+.entries li     { margin: 0.8em 1.2em; }
+.entries li h2  { margin-left: -1em; }
+.add-entry      { font-size: 0.9em; border-bottom: 1px solid #ccc; }
+.add-entry dl   { font-weight: bold; }
+.metanav        { text-align: right; font-size: 0.8em; padding: 0.3em;
+margin-bottom: 1em; background: #fafafa; }
+.flash          { background: #cee5F5; padding: 0.5em;
+border: 1px solid #aacbe2; }
+.error          { background: #f0d6d6; padding: 0.5em; }
+
+.button_ctl {
+	font: 12px Tahoma, Verdana;
+	padding: 0 5px;
+	color: #D3E0E7;
+	cursor:pointer;
+	background-repeat: no-repeat;
+	background-position: 0 50%;
+	outline: 0px solid #D3E0E7;
+	border: 0px solid #FFF !important;
+	line-height: 17px;
+}
+th {
+	font-weight: bold;
+	height: 96px;
+	width: 96px;
+}
+

@@ -1,0 +1,40 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<title>Car WebUI</title>
+		<meta name="keywords" content="Car Control" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<meta name="description" content="wangheng.org 小车控制" />
+		<meta name="author" content="wangheng" />
+
+		<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+
+		<script type="text/javascript" src="{{ url_for('static', filename='jquery-1.11.2.min.js')}}"> </script>
+
+	</head>
+	<body>
+		<div class="page">
+			<header>
+			<h1><a href="/">WebUI</a></h1>
+			<div>
+				项目地址：<a href="https://github.com/wujiwh/piCar">https://github.com/wujiwh/piCar</a>
+			</div>
+			</header>
+			<div class="content">
+				{% block body %}{% endblock %}
+			</div>
+			<div>
+				<footer>
+				<p>Pi Car Control, Power by <a href="http://wangheng.org">wangheng.</a></p>
+				</footer>
+			</div>
+		</div>
+		<script type="text/javascript" src="{{ url_for('static', filename='car.common.js')}}"> </script>
+		<script type="text/javascript" src="{{ url_for('static', filename='car.js')}}"> </script>
+		<script>
+			$(document).ready(function(){
+				WH.Init();
+			});
+		</script>
+	</body>
+</html>
